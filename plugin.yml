@@ -1,0 +1,13 @@
+name: ChatLockPMMP4
+version: 1.0.0
+main: NewPlayerMC\ChatLock
+api: [4.0.0]
+author: NewPlayerMC
+
+permissions:
+  chatlock.use:
+    default: op
+    description: Allow player to /chatlock [on|off]
+  chatlock.bypass:
+    default: op
+    description: Allow player to talk when chatlock is on
